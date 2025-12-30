@@ -43,7 +43,7 @@ def encode_pdf(path: str, chunk_size: int = 1000, chunk_overlap: int = 200):
     return vectorstore
 
 
-path = r"C:\Users\aqib8\Desktop\CV\AI\RAG_Repo\Resume.pdf"
+path = r"C:\Users\aqib8\Desktop\CV\AI\RAG_Repo\Project.pdf"
 
 vectorstore = encode_pdf(path)
 
