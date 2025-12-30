@@ -390,7 +390,7 @@ def interactive_rag_loop():
     print("=" * 80)
     
     # Load PDF once
-    pdf_path = "C:\\Users\\aqib8\\Desktop\\CV\\AI\\RAG_Repo\\nbc2020_p1.pdf"
+    pdf_path = "C:\\Users\\aqib8\\Desktop\\CV\\AI\\RAG_Repo\\Project.pdf"
     
     print(f"\nLoading PDF: {pdf_path}")
     chunks = load_and_process_pdf(pdf_path)
